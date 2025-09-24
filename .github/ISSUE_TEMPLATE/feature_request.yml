@@ -1,0 +1,12 @@
+name: Feature
+description: Solicitud de mejora
+body:
+  - type: textarea
+    id: valor
+    attributes: { label: Valor para el usuario }
+  - type: textarea
+    id: criterios
+    attributes: { label: Criterios de aceptación }
+  - type: textarea
+    id: notas
+    attributes: { label: Notas técnicas }

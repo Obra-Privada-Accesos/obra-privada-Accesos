@@ -1,0 +1,15 @@
+name: Bug
+description: Reportar un fallo
+body:
+  - type: input
+    id: contexto
+    attributes: { label: ¿Dónde ocurrió?, placeholder: Pantalla/feature }
+  - type: textarea
+    id: pasos
+    attributes: { label: Pasos para reproducir }
+  - type: textarea
+    id: esperado
+    attributes: { label: Comportamiento esperado }
+  - type: textarea
+    id: extra
+    attributes: { label: Logs/adjuntos }
