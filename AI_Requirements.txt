@@ -1,0 +1,29 @@
+El componente de Inteligencia Artificial (IA) del proyecto "Obra Privada: Accesos & Activos" se centra en la visión por computadora 
+para garantizar la seguridad y el cumplimiento normativo en las áreas de trabajo. La solución se basa en el despliegue de IA 
+en el borde (Edge AI), ejecutando el modelo directamente en el dispositivo móvil (smartphone).
+
+1. Detección de Equipo de Protección Personal
+El requisito fundamental de la IA es la detección precisa y en tiempo real de los dos EPP principales:
+
+- Casco de Seguridad (Hard Hat Detection): El modelo debe ser capaz de localizar y clasificar la presencia u ausencia de un 
+  casco en la cabeza de los trabajadores.
+- Arnés de Seguridad (Safety Harness Detection): El modelo debe identificar si el trabajador lleva puesto un arnés, 
+  especialmente relevante en zonas de riesgo de altura.
+
+2. Arquitectura y Modelo
+Para garantizar un rendimiento óptimo en la aplicación móvil desarrollada en Flutter, se requiere la siguiente arquitectura de IA:
+
+- Modelo Base: Se utilizará un modelo de detección de objetos ligero y eficiente (ej. SSD MobileNet o una versión optimizada de YOLO).
+- Formato del Modelo: El modelo deberá ser exportado al formato TensorFlow Lite (.tflite), 
+  optimizado para la baja latencia y el reducido consumo de recursos en dispositivos móviles.
+- Método de Entrenamiento: El entrenamiento se realizará mediante Transfer Learning, ajustando un modelo pre-entrenado con un conjunto de datos específico y anotado de cascos y arneses para acelerar el desarrollo y maximizar la precisión.
+
+3. Detección de Riesgos y Lógica de Negocio
+La función de la IA no se limita a la detección de objetos, sino a la habilitación de la lógica de seguridad:
+
+- Generación de Alertas: Los resultados del modelo de detección deben ser procesados por la lógica de la aplicación. 
+  Se generará una alerta de riesgo SI se detecta la presencia de una persona Y la ausencia del EPP requerido (casco o arnés).
+- Tiempo Real: El procesamiento de imágenes debe ocurrir en tiempo real, con una latencia mínima, 
+  para que la detección sea útil en el monitoreo activo de la seguridad.
+- Integración: Los resultados de la IA servirán como input para el componente de CRM/Chatbot/n8n para el registro automático de 
+  incidentes de compliance.
