@@ -1,0 +1,30 @@
+# ==== Features (más específicas primero) ====
+
+# IA: reconocimiento de casco/arnés, riesgos
+lib/features/safety_ai/**        @leorh22
+
+# CRM / inventario / compliance / n8n
+lib/features/assets_tracking/**  @utsjrsanti14
+
+# Control de accesos (torniquete, RFID/QR) + UI principal
+lib/features/access_control/**   @monikabj @ColonelJurten
+lib/shared/**                    @monikabj @ColonelJurten
+
+# Núcleo (router, theming, DI, errores, utils)
+lib/core/**                      @leorh22 @utsjrsanti14 @monikabj @ColonelJurten
+
+# ==== Plataformas ====
+android/**                       @monikabj @ColonelJurten
+ios/**                           @monikabj @ColonelJurten
+web/**                           @monikabj @ColonelJurten
+linux/**                         @monikabj @ColonelJurten
+macos/**                         @monikabj @ColonelJurten
+windows/**                       @monikabj @ColonelJurten
+
+# ==== Infra del repo ====
+.github/**                       @ColonelJurten
+.gitignore                       @ColonelJurten
+analysis_options.yaml            @ColonelJurten
+
+# ==== Regla por defecto (si nada anterior coincide) ====
+*                                @leorh22 @utsjrsanti14 @monikabj @ColonelJurten
