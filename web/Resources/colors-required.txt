@@ -1,0 +1,12 @@
+Paleta de Colores de la Aplicación "Obra Inteligente"
+La paleta cromática de la aplicación "Obra Inteligente" se ha seleccionado meticulosamente para reflejar la seguridad, la profesionalidad y la legibilidad, elementos esenciales en el monitoreo de la construcción. Nuestra elección de colores se alinea con los estándares de señalización de seguridad industrial para garantizar una interpretación visual instantánea de los datos y los riesgos.
+
+Colores Funcionales Base
+Los colores primarios de la interfaz se basan en un contraste fuerte y elegante. Utilizamos un Azul Oscuro (#1A237E) como color de fondo dominante para las barras de navegación y el layout general. Este tono Navy imparte una sensación de estabilidad y seriedad, ideal para una aplicación de seguridad profesional, además de reducir la fatiga visual del usuario durante turnos largos. El Blanco (#FFFFFF) se reserva para el texto principal y los elementos interactivos, lo que garantiza la máxima legibilidad sobre el fondo oscuro. Finalmente, un Gris Claro (#B0BEC5) se usa para elementos secundarios, como iconos inactivos y líneas divisorias, permitiendo que la información crítica resalte sin competir con ella.
+
+Colores de Retroalimentación y Riesgo (IA)
+La verdadera funcionalidad de la paleta reside en los colores de retroalimentación, que son activados por los resultados del modelo de IA. La precisión y el impacto de estos tonos son cruciales para la detección de riesgos. El Verde Esmeralda (#4CAF50) se utiliza para indicar la conformidad, seguridad y el estado "OK". Este color se dibujará como un recuadro o indicador cuando el modelo detecte que un trabajador está utilizando el Casco o Arnés correctamente, alineándose con el significado universal de "vía libre" o cumplimiento.
+
+En contraposición, el Rojo Brillante (#F44336) es el color reservado para la alerta, peligro e infracción. Se activará inmediatamente cuando la lógica de riesgo de la aplicación determine que hay un incumplimiento (por ejemplo, persona detectada sin el EPP requerido en una zona crítica). Este color garantiza que el supervisor identifique el riesgo de manera inmediata e inequívoca. Adicionalmente, se puede utilizar el Amarillo/Ámbar (#FFC107) para señalizar advertencias o estados provisionales, como una detección en curso o un problema de conexión leve.
+
+Estos colores de riesgo y seguridad se activarán de manera estratégica y minimalista, asegurando que su uso se limite a las detecciones de la IA para mantener la atención del usuario enfocada únicamente en los puntos de riesgo activos.

@@ -5,7 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
+<<<<<<< HEAD
 	<string>Obraprivada</string>
+=======
+	<string>Obra Privada Accesos</string>
+>>>>>>> fae0d21e6a4cf929f087b2db595d9fa61b8c55ea
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +17,11 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
+<<<<<<< HEAD
 	<string>obraprivada</string>
+=======
+	<string>obra_privada_accesos</string>
+>>>>>>> fae0d21e6a4cf929f087b2db595d9fa61b8c55ea
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

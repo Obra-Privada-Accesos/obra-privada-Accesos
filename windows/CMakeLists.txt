@@ -1,10 +1,18 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
+<<<<<<< HEAD
 project(obraprivada LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "obraprivada")
+=======
+project(obra_privada_accesos LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "obra_privada_accesos")
+>>>>>>> fae0d21e6a4cf929f087b2db595d9fa61b8c55ea
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

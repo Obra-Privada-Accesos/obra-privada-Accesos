@@ -15,7 +15,11 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
                BuildableName = "obraprivada.app"
+=======
+               BuildableName = "obra_privada_accesos.app"
+>>>>>>> fae0d21e6a4cf929f087b2db595d9fa61b8c55ea
                BlueprintName = "Runner"
                ReferencedContainer = "container:Runner.xcodeproj">
             </BuildableReference>
@@ -31,7 +35,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "obraprivada.app"
+=======
+            BuildableName = "obra_privada_accesos.app"
+>>>>>>> fae0d21e6a4cf929f087b2db595d9fa61b8c55ea
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -66,7 +74,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "obraprivada.app"
+=======
+            BuildableName = "obra_privada_accesos.app"
+>>>>>>> fae0d21e6a4cf929f087b2db595d9fa61b8c55ea
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -83,7 +95,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "obraprivada.app"
+=======
+            BuildableName = "obra_privada_accesos.app"
+>>>>>>> fae0d21e6a4cf929f087b2db595d9fa61b8c55ea
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
